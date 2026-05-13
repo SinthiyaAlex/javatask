@@ -97,7 +97,7 @@ console.log(multiplication(2)(3)(4));
 
 const arr1 = [1,2,3] ;
 const arr2 = [ 4,5,6];
-const merge = arr1.concat(arr2);
+const merge = [...arr1, ...arr2];//spread operator
 console.log(merge);
 
 //10. ans: [1,2,3,4,5,6]
